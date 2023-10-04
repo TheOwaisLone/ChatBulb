@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context=".activities.ReplyActivity">
+
+    <EditText
+        android:id="@+id/inputMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:layout_weight="1"
+        android:background="@drawable/background_chat_input"
+        android:hint="@string/message"
+        android:imeOptions="actionSend"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:maxHeight="@dimen/_50sdp"
+        android:minHeight="@dimen/_40sdp"
+        android:paddingStart="@dimen/_16sdp"
+        android:paddingEnd="@dimen/_16sdp"
+        android:textColor="@color/IconText"
+        android:textColorHint="@color/SecondaryText"
+        android:textSize="@dimen/_13ssp" />
+
+
+    <FrameLayout
+        android:id="@+id/layoutSend"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_margin="@dimen/_8sdp"
+        android:background="@drawable/background_chat_input"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/_3sdp"
+            android:src="@drawable/ic_send"
+            app:tint="@color/IconText" />
+    </FrameLayout>
+
+
+</LinearLayout>

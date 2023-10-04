@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "285702290055",
+    "project_id": "owais-chatbulb",
+    "storage_bucket": "owais-chatbulb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285702290055:android:485d97d90c659f6f89d622",
+        "android_client_info": {
+          "package_name": "com.owais.chatbulb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALP24MPTN257Ugac-MA16O5Sf3mKyEbdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

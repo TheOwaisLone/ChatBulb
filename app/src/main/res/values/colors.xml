@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Primary">#1976D2</color>
+    <color name="PrimaryDark">#2196F3</color>
+    <color name="PrimaryLight">#BBDEFB</color>
+    <color name="Accent">#03A9F4</color>
+    <color name="IconText">#FFFFFF</color>
+    <color name="InputBackground">#ECECEC</color>
+    <color name="PrimaryText">#212121</color>
+    <color name="SecondaryText">#656565</color>
+    <color name="Divider">#BDBDBD</color>
+    <color name="IconBackground">#20FFFFFF</color>
+    <color name="MsgReceivedBg">#1D2537</color>
+    <color name="Green">#008000</color>
+</resources>
